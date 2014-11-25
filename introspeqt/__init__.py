@@ -7,7 +7,7 @@ objects_dict = {}
 log_path = None
 
 
-class Handler(QtCore.QObject):
+class Handler(QtCore.QObject, object):
     def __init__(self, app):
         super(Handler, self).__init__()
         self.app = app
@@ -57,15 +57,15 @@ def pretty_dict(d, indent=0):
 
 def save_file(data, app):
     try:
-        with open((log_path + os.sep + "introspeqt.txt"), 'w') as file:
+        with open((log_path + os.sep + "introspeqt.txt"), 'w') as filename:
             app_name = app.applicationName()
 
             if not app_name:
                 app_name = '<Unknown>'
 
-            file.write('App name: ' + app_name + '\n')
-            file.write('Username: ' + getpass.getuser() + '\n\n')
-            file.write(pretty_dict(data))
+            filename.write('App name: ' + app_name + '\n')
+            filename.write('Username: ' + getpass.getuser() + '\n\n')
+            filename.write(pretty_dict(data))
 
     except Exception, e:
         print "ERROR: Unable to create introspeqt's log file"

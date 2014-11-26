@@ -1,7 +1,8 @@
 # introspeqt
 
 [![Code Health][landscape]][landscape_repo] 
-[![Build Status][travis]][travis_repo] 
+[![Build Status][travis]][travis_repo]
+[![PyPI version][pypi]][pypi_repo]
 
 Simple introspector for PySide applications.
 
@@ -9,7 +10,11 @@ Simple introspector for PySide applications.
 
 ##Installation
 
-At the moment `instrospeqt` is not available to be installed from the Python Package Index. Having said that, you can use one of the following methods.
+### From the Python Package Index
+
+You can install `introspeqt` using the following command:
+
+	pip install introspeqt
 
 ### Clone the repository
 
@@ -45,3 +50,5 @@ Check the wiki for information about `introspeqt`'s [Usage] and the [Output] tha
 [landscape_repo]: https://landscape.io/github/davidmartinezanim/introspeqt/master
 [usage]: https://github.com/davidmartinezanim/introspeqt/wiki/Usage
 [output]: https://github.com/davidmartinezanim/introspeqt/wiki/Output
+[pypi]: https://badge.fury.io/py/introspeqt.svg
+[pypi_repo]: http://badge.fury.io/for/py/introspeqt

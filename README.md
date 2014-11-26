@@ -51,4 +51,4 @@ Check the wiki for information about `introspeqt`'s [Usage] and the [Output] tha
 [usage]: https://github.com/davidmartinezanim/introspeqt/wiki/Usage
 [output]: https://github.com/davidmartinezanim/introspeqt/wiki/Output
 [pypi]: https://badge.fury.io/py/introspeqt.svg
-[pypi_repo]: http://badge.fury.io/for/py/introspeqt
+[pypi_repo]: http://badge.fury.io/py/introspeqt

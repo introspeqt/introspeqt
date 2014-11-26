@@ -1,0 +1,7 @@
+*.pyc
+ToDo.txt
+.gitconfig
+.pypirc
+dist
+introspeqt.egg-info
+.idlerc

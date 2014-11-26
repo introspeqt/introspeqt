@@ -11,6 +11,7 @@ config = {
     'url': 'https://github.com/davidmartinezanim/introspeqt',
     'version': '0.0.1',
     'packages': ['introspeqt'],
+    'install_requires': ['PySide', ],
     'scripts': []
 }
 

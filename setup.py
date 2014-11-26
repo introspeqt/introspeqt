@@ -10,7 +10,7 @@ config = {
     'author_email': 'david.martinez.anim@gmail.com',
     'url': 'https://github.com/davidmartinezanim/introspeqt',
     'version': '0.0.1',
-    'packages': ['instrospeqt'],
+    'packages': ['introspeqt'],
     'scripts': []
 }
 

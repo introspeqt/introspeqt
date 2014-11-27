@@ -14,17 +14,22 @@ class Handler(QtCore.QObject, object):
         self.app = app
 
     def eventFilter(self, obj, event):
-        if event.type() == QtCore.QEvent.MouseButtonPress:
-            widget_type = type(obj).__name__
-            event_type = str(event.type())
-            obj_name = obj.objectName()
-            if not obj_name:
-                obj_name = '<Unknown objectName>'
+        widget_type = type(obj).__name__
+        event_type = str(event.type())
+        obj_name = obj.objectName()
+        if not obj_name:
+            obj_name = '<Unknown objectName>'
 
+        if event_list:
+            if str(event.type()) in event_list:
+                objects_dict[widget_type][obj_name].setdefault(event_type, 0)
+                objects_dict[widget_type][obj_name][event_type] += 1
+
+        elif event.type() == QtCore.QEvent.MouseButtonPress:
             objects_dict[widget_type][obj_name].setdefault(event_type, 0)
             objects_dict[widget_type][obj_name][event_type] += 1
 
-            save_file(objects_dict, self.app)
+        save_file(objects_dict, self.app)
 
         return super(Handler, self).eventFilter(obj, event)
 

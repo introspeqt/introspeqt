@@ -18,6 +18,8 @@ class Handler(QtCore.QObject, object):
             widget_type = type(obj).__name__
             event_type = str(event.type())
             obj_name = obj.objectName()
+            if not obj_name:
+                obj_name = '<Unknown objectName>'
 
             objects_dict[widget_type][obj_name].setdefault(event_type, 0)
             objects_dict[widget_type][obj_name][event_type] += 1

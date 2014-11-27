@@ -35,11 +35,11 @@ Check the wiki for information about `introspeqt`'s [Usage] and the [Output] tha
 ### What it does
 
 * Outputs a text file listing all widgets of a given `QApplication` and the amount of times they've been clicked. 
+* Support for multiple QEvents
 
 ### Limitations
 
 * Does not output data to other formats other than text files.
-* The only event supported at the moment is `QtCore.QEvent.MouseButtonPress`.
 * Unable to specify which widgets we want to get information from.
 * Output is for one session only. Running the application again replaces output.
 * Works with standalone applications but not in hosts that have an event loop already running.

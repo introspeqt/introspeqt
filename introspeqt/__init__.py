@@ -5,6 +5,7 @@ import os
 
 objects_dict = {}
 log_path = None
+event_list = []
 
 
 class Handler(QtCore.QObject, object):

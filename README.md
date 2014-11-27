@@ -4,7 +4,7 @@
 [![Build Status][travis]][travis_repo]
 [![PyPI version][pypi]][pypi_repo]
 
-Simple introspector for PySide applications.
+Simple introspector for `PySide` applications.
 
 
 
@@ -35,7 +35,7 @@ Check the wiki for information about `introspeqt`'s [Usage] and the [Output] tha
 ### What it does
 
 * Outputs a text file listing all widgets of a given `QApplication` and the amount of times they've been clicked. 
-* Support for multiple QEvents
+* Support for multiple `QEvents`
 
 ### Limitations
 

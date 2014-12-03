@@ -44,8 +44,8 @@ Check the wiki for information about `introspeqt`'s [Usage] and the [Output] tha
 * Output is for one session only. Running the application again replaces output.
 * Works with standalone applications but not in hosts that have an event loop already running.
 
-[travis]: https://travis-ci.org/davidmartinezanim/introspeqt.svg
-[travis_repo]: https://travis-ci.org/davidmartinezanim/introspeqt
+[travis]: https://travis-ci.org/introspeqt/introspeqt.svg?branch=master
+[travis_repo]: https://travis-ci.org/introspeqt/introspeqt
 [landscape]: https://landscape.io/github/introspeqt/introspeqt/master/landscape.svg
 [landscape_repo]: https://landscape.io/github/introspeqt/introspeqt/master
 [usage]: https://github.com/davidmartinezanim/introspeqt/wiki/Usage

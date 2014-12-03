@@ -46,8 +46,8 @@ Check the wiki for information about `introspeqt`'s [Usage] and the [Output] tha
 
 [travis]: https://travis-ci.org/davidmartinezanim/introspeqt.svg
 [travis_repo]: https://travis-ci.org/davidmartinezanim/introspeqt
-[landscape]: https://landscape.io/github/davidmartinezanim/introspeqt/master/landscape.svg
-[landscape_repo]: https://landscape.io/github/davidmartinezanim/introspeqt/master
+[landscape]: https://landscape.io/github/introspeqt/introspeqt/master/landscape.svg
+[landscape_repo]: https://landscape.io/github/introspeqt/introspeqt/master
 [usage]: https://github.com/davidmartinezanim/introspeqt/wiki/Usage
 [output]: https://github.com/davidmartinezanim/introspeqt/wiki/Output
 [pypi]: https://badge.fury.io/py/introspeqt.svg

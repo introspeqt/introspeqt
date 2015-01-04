@@ -10,6 +10,8 @@ Creating a simple Application
 In order to explain what `introspeqt` is and how we can use it, we will need
 a working PySide application first. Here is an example:
 
+.. code-block:: python
+
     import sys
     from PySide import QtGui
 

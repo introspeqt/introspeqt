@@ -1,24 +1,52 @@
-Installation
-=============
+Getting Started
+===============
 
-From the Python Package Index
+The best way to learn how to use something is to get your hands dirty so we are
+going to be using `introspeqt` by using it.
+
+Creating a simple Application
 -----------------------------
 
-You can install introspeqt using the following command:
+In order to explain what `introspeqt` is and how we can use it, we will need
+a working PySide application first. Here is an example:
 
-    `pip install introspeqt`
+    import sys
+    from PySide import QtGui
 
-Clone the repository
---------------------
+    class Example(QtGui.QWidget):
+        
+        def __init__(self):
+            super(Example, self).__init__()
+            
+            self.initUI()
+            
+        def initUI(self):
+            
+            self.setGeometry(300, 300, 250, 150)
+            self.setWindowTitle('Test UI')
 
-Providing that you've got `git` installed in your computer, you can clone the
-repository by running the following from the command line:
+            layout = QtGui.QVBoxLayout()
+            
+            btn01 = QtGui.QPushButton('Button 01')
+            btn.setObjectName('btn01')
+            
+            btn2 = QtGui.QPushButton('Button 02')
+            btn2.setObjectName('btn02')
+            
+            layout.addWidget(btn)
+            layout.addWidget(btn2)
 
-    `git clone https://github.com/davidmartinezanim/introspeqt.git`
+            self.setLayout(layout)
 
-Manual Installation
--------------------
+            self.show()
+            
+    def main():
+        
+        app = QtGui.QApplication(sys.argv)
+        ex = Example()
+        QtGui.qApp.installEventFilter(overlay)
+        sys.exit(app.exec_())
 
-Download the zip file for the latest version from `HERE`_.
 
-.. _HERE: https://github.com/davidmartinezanim/introspeqt/archive/master.zip
+    if __name__ == '__main__':
+        main()

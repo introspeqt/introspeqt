@@ -22,6 +22,6 @@ repository by running the following from the command line:
 Manual Installation
 ^^^^^^^^^^^^^^^^^^^
 
-Download the zip file for the latest version from `HERE`_`
+Download the zip file for the latest version from `HERE`_.
 
 .. _HERE: https://github.com/davidmartinezanim/introspeqt/archive/master.zip

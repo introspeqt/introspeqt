@@ -9,7 +9,7 @@ make for them. If we ask the user what do they think of the tool, we tend to
 get a polite reply instead of honest feedback. Another option is to stand
 behind their back observing what they do with the tool. Even though that this
 method works, it adds pressure on the user and they don't feel comfortable with
-you standing so close as they feel like you are judgind them.
+you standing so close as they feel like you are judging them.
 
 `introspeqt` is an easy to use introspection tool that allows you to gather
 information about how users use your tool without the need to stand behind
